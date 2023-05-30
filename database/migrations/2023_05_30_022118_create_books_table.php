@@ -18,7 +18,10 @@ return new class extends Migration
             $table->string("description");
             $table->string("author");
             $table->text("body");
+            $table->string("time");
+            $table->integer("like");
             $table->date("date");
+            $table->string("image");
             $table->timestamps();
         });
     }
